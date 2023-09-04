@@ -1,24 +1,20 @@
-// import { useState } from 'react';
-import {Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import { Home } from './pages/Home';
-import { Shop } from './pages/Shop';
-import { About } from './pages/About';
-
+import { Products } from './pages/Products';
+import { Navbar } from './components/Navbar';
+import 'font-awesome/css/font-awesome.min.css';
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
-    <Container>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-      {/* <button onClick={() => setCount((count) => count + 1)}>
-        count is {count}
-      </button> */}
-    </Container>
+    <>
+      <Navbar />
+      <Container>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+        </Routes>
+      </Container>
+    </>
   );
 }
 
