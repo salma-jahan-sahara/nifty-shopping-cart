@@ -14,7 +14,7 @@
 
 - Total price can be Updated dynamically as items are added or removed to the cart.
 
-- Cart will remain in cart after refreshing the page.
+- Products will remain in cart after refreshing the page.
 
 - This application is responsive on various devices.
 
@@ -32,6 +32,6 @@
 
 - Open the folder in your VS code editor /any other editor
 
-- To Install Node module type in your terminal : npm install ()
+- To Install Node module type in your terminal : npm install
 
 - Run the project by using this command: npm run dev
