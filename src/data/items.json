@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Black T-shirt",
+    "price": 100,
+    "imgUrl": "/imgs/tshirt-black.jpg"
+  },
+  {
+    "id": 2,
+    "name": "T-shirt",
+    "price": 200,
+    "imgUrl": "/imgs/tshirt-dusty-pink.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Top",
+    "price": 1000,
+    "imgUrl": "/imgs/top-blue.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Watch",
+    "price": 1000,
+    "imgUrl": "/imgs/watch-black.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Watch Brown",
+    "price": 1000,
+    "imgUrl": "/imgs/watch-brown.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Chair",
+    "price": 10000,
+    "imgUrl": "/imgs/chairs.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Top Blue",
+    "price": 250,
+    "imgUrl": "/imgs/crop-top-blue.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Crop Top",
+    "price": 300,
+    "imgUrl": "/imgs/crop-top-white.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Floral Dress",
+    "price": 2000,
+    "imgUrl": "/imgs/floral-dress.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Flowers",
+    "price": 100,
+    "imgUrl": "/imgs/flowers.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Shoe",
+    "price": 1100,
+    "imgUrl": "/imgs/shoe.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Sofa",
+    "price": 1000,
+    "imgUrl": "/imgs/sofa.jpg"
+  }
+]
