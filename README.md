@@ -28,7 +28,7 @@
 
 - Check if the machine have node installed
 
-- Then run your command line: git clone https://github.com/salma-jahan-sahara/nifty-shopping-cart-.git
+- Then run your command line: git clone https://github.com/salma-jahan-sahara/nifty-shopping-cart.git
 
 - Open the folder in your VS code editor /any other editor
 
