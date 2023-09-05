@@ -2,19 +2,22 @@ import { Container, Button, Nav, Navbar as NavbarBs } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
 import { FaCartShopping } from 'react-icons/fa6';
+import { useShoppingCart } from '../context/ShoppingCartContext';
 export function Navbar() {
+  const {openCart, cartQuantity} = useShoppingCart()
   return (
-    <NavbarBs sticky='top' className="bg-light text-dark shadow-sm mb-3">
+    <NavbarBs sticky="top" className="bg-light text-dark shadow-sm mb-3">
       <Container>
         <Nav className="me-auto">
-          <Nav.Link to={'/'} as={NavLink}>
+          {/* <Nav.Link to={'/'} as={NavLink}>
             Home
-          </Nav.Link>
+          </Nav.Link> */}
           <Nav.Link to={'/products'} as={NavLink}>
             Products
           </Nav.Link>
         </Nav>
         <Button
+          onClick={openCart}
           style={{ width: '4rem', height: '4rem', position: 'relative' }}
           variant="outline-success"
           className=""
@@ -31,7 +34,7 @@ export function Navbar() {
               right: '0',
             }}
           >
-            10
+            {cartQuantity}
           </div>
         </Button>
       </Container>
